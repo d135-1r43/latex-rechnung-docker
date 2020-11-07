@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  latex:
+    image: d1351r43/latex-rechnung-docker:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
